@@ -18,8 +18,13 @@
 		A403A9092834671200F358A9 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A403A9082834671100F358A9 /* ScrumsView.swift */; };
 		A403A90B28347CF100F358A9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A403A90A28347CF000F358A9 /* DetailView.swift */; };
 		A403A90D2835384500F358A9 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A403A90C2835384500F358A9 /* DetailEditView.swift */; };
+		A45658872835CF3900E4C1A3 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45658862835CF3900E4C1A3 /* AVPlayer.swift */; };
 		A49C98B62835450200DB5D30 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C98B52835450200DB5D30 /* ThemeView.swift */; };
 		A49C98B8283546CC00DB5D30 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C98B7283546CC00DB5D30 /* ThemePicker.swift */; };
+		A49C98BA2835BB3000DB5D30 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C98B92835BB2F00DB5D30 /* MeetingHeaderView.swift */; };
+		A49C98BC2835BE6200DB5D30 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C98BB2835BE6200DB5D30 /* ScrumProgressViewStyle.swift */; };
+		A49C98BE2835BE9900DB5D30 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C98BD2835BE9900DB5D30 /* ScrumTimer.swift */; };
+		A49C98C02835C5C400DB5D30 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C98BF2835C5C400DB5D30 /* MeetingFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +40,13 @@
 		A403A9082834671100F358A9 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		A403A90A28347CF000F358A9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		A403A90C2835384500F358A9 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		A45658862835CF3900E4C1A3 /* AVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
 		A49C98B52835450200DB5D30 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		A49C98B7283546CC00DB5D30 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		A49C98B92835BB2F00DB5D30 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		A49C98BB2835BE6200DB5D30 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		A49C98BD2835BE9900DB5D30 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		A49C98BF2835C5C400DB5D30 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,7 @@
 				A403A901283437CC00F358A9 /* Views */,
 				A403A8FE2834360100F358A9 /* Models */,
 				A403A8EE283423DB00F358A9 /* ScrumdingerApp.swift */,
+				A45658862835CF3900E4C1A3 /* AVPlayer.swift */,
 				A403A8FC283433A000F358A9 /* Theme.swift */,
 				A403A8F2283423E000F358A9 /* Assets.xcassets */,
 				A403A8F4283423E000F358A9 /* Preview Content */,
@@ -99,6 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				A403A8F0283423DB00F358A9 /* MeetingView.swift */,
+				A49C98BF2835C5C400DB5D30 /* MeetingFooterView.swift */,
+				A49C98B92835BB2F00DB5D30 /* MeetingHeaderView.swift */,
+				A49C98BB2835BE6200DB5D30 /* ScrumProgressViewStyle.swift */,
+				A49C98BD2835BE9900DB5D30 /* ScrumTimer.swift */,
 				A403A9042834380800F358A9 /* CardView.swift */,
 				A403A90628343B2900F358A9 /* TrailingIconLabelStyle.swift */,
 				A403A9082834671100F358A9 /* ScrumsView.swift */,
@@ -181,8 +196,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A49C98B8283546CC00DB5D30 /* ThemePicker.swift in Sources */,
+				A49C98BC2835BE6200DB5D30 /* ScrumProgressViewStyle.swift in Sources */,
+				A49C98C02835C5C400DB5D30 /* MeetingFooterView.swift in Sources */,
+				A49C98BE2835BE9900DB5D30 /* ScrumTimer.swift in Sources */,
 				A403A9002834360F00F358A9 /* DailyScrum.swift in Sources */,
 				A403A90B28347CF100F358A9 /* DetailView.swift in Sources */,
+				A49C98BA2835BB3000DB5D30 /* MeetingHeaderView.swift in Sources */,
 				A403A90D2835384500F358A9 /* DetailEditView.swift in Sources */,
 				A403A90728343B2900F358A9 /* TrailingIconLabelStyle.swift in Sources */,
 				A403A8FD283433A000F358A9 /* Theme.swift in Sources */,
@@ -190,6 +209,7 @@
 				A403A8F1283423DB00F358A9 /* MeetingView.swift in Sources */,
 				A403A8EF283423DB00F358A9 /* ScrumdingerApp.swift in Sources */,
 				A49C98B62835450200DB5D30 /* ThemeView.swift in Sources */,
+				A45658872835CF3900E4C1A3 /* AVPlayer.swift in Sources */,
 				A403A9052834380800F358A9 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
 				DEVELOPMENT_TEAM = 5DA8VT6J9F;
 				ENABLE_PREVIEWS = YES;
@@ -346,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
 				DEVELOPMENT_TEAM = 5DA8VT6J9F;
 				ENABLE_PREVIEWS = YES;
